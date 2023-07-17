@@ -5,7 +5,7 @@ function validaNome(nomeCompleto){
     return nomeComoArray.length >= 2;
 }
 
-form.addEventListener('submit', function(e) {     /* "e" significa "evento", serve para cancelar o evento padrão do botão que reinicia a página*/
+form.addEventListener('submit', function(e) {     /* A letra "e" significa "evento", serve para cancelar o evento padrão do botão que reinicia a página*/
     let formEValido = false;
     e.preventDefault();
 
